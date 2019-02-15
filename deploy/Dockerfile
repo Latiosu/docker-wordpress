@@ -17,3 +17,7 @@ RUN curl -L ${AGENT_DOWNLOAD_LINK} | tar -C /tmp -zx && \
 	sed -i -e 's/"REPLACE_WITH_REAL_KEY"/"${NR_LICENSE_KEY}"/' \
 			-e 's/newrelic.appname = "PHP Application"/newrelic.appname = "${NR_APPLICATION_NAME}"/' \
 			/usr/local/etc/php/conf.d/newrelic.ini
+
+# Enable Apache mod_headers
+RUN a2enmod headers && \
+	service apache2 restart
