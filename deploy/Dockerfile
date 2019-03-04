@@ -21,3 +21,6 @@ RUN curl -L ${AGENT_DOWNLOAD_LINK} | tar -C /tmp -zx && \
 # Enable Apache mod_headers
 RUN a2enmod headers && \
 	service apache2 restart
+
+# Install unar for JATO image extraction
+RUN apt-get update && apt-get install -y --no-install-recommends unar
