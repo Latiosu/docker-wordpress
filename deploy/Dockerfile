@@ -1,4 +1,4 @@
-FROM wordpress:5.0.3
+FROM wordpress:5.1.0
 
 # New Relic PHP Agent Download Link
 ENV AGENT_DOWNLOAD_LINK=https://download.newrelic.com/php_agent/release/newrelic-php5-8.5.0.235-linux.tar.gz

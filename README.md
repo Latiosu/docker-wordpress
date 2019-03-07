@@ -1,5 +1,5 @@
 # Information
-- WordPress version: `5.0.3`
+- WordPress version: `5.1.0`
 - PHP version: `7.2`
 - Webserver: `apache`
 
