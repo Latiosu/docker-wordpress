@@ -1,6 +1,6 @@
 # Information
-- WordPress version: `5.1.0`
-- PHP version: `7.2`
+- WordPress version: `5.3.0`
+- PHP version: `7.3`
 - Webserver: `apache`
 
 ## Supported Tags
